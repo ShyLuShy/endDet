@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EnglandDates"
+        tools:targetApi="31">
+        <activity
+            android:name=".Infoeighteen"
+            android:exported="false" />
+        <activity
+            android:name=".Infoseventeen"
+            android:exported="false" />
+        <activity
+            android:name=".Infosixteen"
+            android:exported="false" />
+        <activity
+            android:name=".Infofifteen"
+            android:exported="false" />
+        <activity
+            android:name=".Infofourteen"
+            android:exported="false" />
+        <activity
+            android:name=".Infothirteen"
+            android:exported="false" />
+        <activity
+            android:name=".InfoEleven"
+            android:exported="false" />
+        <activity
+            android:name=".InfoTwelwe"
+            android:exported="false" />
+        <activity
+            android:name=".InfoTen"
+            android:exported="false" />
+        <activity
+            android:name=".InfoNine"
+            android:exported="false" />
+        <activity
+            android:name=".InfoEight"
+            android:exported="false" />
+        <activity
+            android:name=".InfoSeven"
+            android:exported="false" />
+        <activity
+            android:name=".InfoSix"
+            android:exported="false" />
+        <activity
+            android:name=".InfoFive"
+            android:exported="false" />
+        <activity
+            android:name=".InfoFour"
+            android:exported="false" />
+        <activity
+            android:name=".InfoThree"
+            android:exported="false" />
+        <activity
+            android:name=".InfoTwo"
+            android:exported="false" />
+        <activity
+            android:name=".InfoOne"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActitivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContainerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_container"
+            android:theme="@style/Theme.EnglandDates" />
+        <activity
+            android:name=".WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
