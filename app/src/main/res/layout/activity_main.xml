@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@color/material_dynamic_tertiary20"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="344dp"
         android:layout_height="55dp"
-        android:background="@color/white"
+        android:background="@color/DarkPurple"
         android:text="Эпохи Английской истории"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#faf7f8"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         android:layout_marginTop="230dp"
         android:layout_marginEnd="90dp"
         android:layout_marginBottom="49dp"
-        android:background="@color/blue"
+        android:background="@color/material_dynamic_tertiary20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/eraone"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:clickable="true"
@@ -54,138 +54,138 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView14"
-                android:clickable="true"
+                android:id="@+id/eratwo"
                 android:layout_width="match_parent"
                 android:layout_height="83dp"
+                android:clickable="true"
                 android:text="@string/Тюдоров"
                 android:textColor="@color/white" />
 
             <TextView
-                android:id="@+id/textView2"
-                android:clickable="true"
+                android:id="@+id/erathree"
                 android:layout_width="match_parent"
                 android:layout_height="73dp"
+                android:clickable="true"
                 android:text="@string/Елизаветинская"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView13"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="72dp"
+                android:clickable="true"
                 android:text="@string/Стюартов"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView5"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
+                android:clickable="true"
                 android:text="@string/Яковианская"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView16"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
+                android:clickable="true"
                 android:text="@string/Каролинская"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView17"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
+                android:clickable="true"
                 android:text="@string/ГражданскиеВ"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView18"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
+                android:clickable="true"
                 android:text="@string/РеставрацияСтюартов"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView19"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
+                android:clickable="true"
                 android:text="@string/Великобритания"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView20"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
+                android:clickable="true"
                 android:text="@string/Георгианская"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView21"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
+                android:clickable="true"
                 android:text="@string/Регенство"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView22"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:clickable="true"
                 android:text="@string/Викторианская"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView23"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
+                android:clickable="true"
                 android:text="@string/Эдвардианская"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView24"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
+                android:clickable="true"
                 android:text="@string/WOW1"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView25"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="62dp"
+                android:clickable="true"
                 android:text="@string/Межвоенный"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView26"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="53dp"
+                android:clickable="true"
                 android:text="@string/WOW2"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView27"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="57dp"
+                android:clickable="true"
                 android:text="@string/Послевоенная"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView28"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="83dp"
+                android:clickable="true"
                 android:text="@string/Современная"
                 android:textColor="@color/white" />
 
@@ -193,11 +193,12 @@
     </ScrollView>
 
     <Button
-        android:onClick="onClick"
         android:id="@+id/AboutButton"
-        android:layout_width="288dp"
-        android:layout_height="42dp"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:backgroundTint="?attr/colorOutline"
         android:fontFamily="sans-serif-condensed-light"
+        android:onClick="onClick"
         android:text="@string/ПрограммИнфо"
         android:textAlignment="center"
         android:textSize="16sp"

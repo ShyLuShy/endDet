@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
 
 
         val Button: Button = findViewById(R.id.AboutButton)
-        val TextViewButton1: TextView = findViewById(R.id.textView3)
-        val TextViewButton2: TextView = findViewById(R.id.textView14)
-        val TextViewButton3: TextView = findViewById(R.id.textView2)
+        val TextViewButton1: TextView = findViewById(R.id.eraone)
+        val TextViewButton2: TextView = findViewById(R.id.eratwo)
+        val TextViewButton3: TextView = findViewById(R.id.erathree)
         val TextViewButton4: TextView = findViewById(R.id.textView13)
         val TextViewButton5: TextView = findViewById(R.id.textView5)
         val TextViewButton6: TextView = findViewById(R.id.textView16)

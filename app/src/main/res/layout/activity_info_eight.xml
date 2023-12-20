@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@color/DarkPurple"
     tools:context=".InfoOne">
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="483dp"
-        android:layout_height="77dp"
+        android:layout_width="424dp"
+        android:layout_height="67dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="13dp"
@@ -30,24 +30,26 @@
         app:layout_constraintVertical_bias="0.018" />
 
     <ScrollView
-        android:layout_width="269dp"
-        android:layout_height="671dp"
+        android:layout_width="292dp"
+        android:layout_height="647dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8">
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="2903dp"
                 android:text="@string/РестврСтрв"
                 android:textAlignment="center"
                 android:textColor="@color/white"

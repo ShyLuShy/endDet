@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="#322C4C"
     tools:context=".InfoOne">
 
     <TextView
@@ -47,7 +47,7 @@
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="2520dp"
                 android:text="@string/КаролинскаяТекст"
                 android:textAlignment="center"
                 android:textColor="@color/white"
