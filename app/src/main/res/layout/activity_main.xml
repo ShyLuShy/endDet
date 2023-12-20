@@ -12,7 +12,7 @@
         android:layout_width="344dp"
         android:layout_height="55dp"
         android:background="@color/DarkPurple"
-        android:text="Эпохи Английской истории"
+        android:text="тут был макс"
         android:textAlignment="center"
         android:textColor="#faf7f8"
         android:textSize="24sp"
